@@ -1,0 +1,234 @@
+{
+  "facial": {
+    "title": "Estética facial i9 face",
+    "categories": [
+      {
+        "name": "Botox — toxina botulínica",
+        "note": "Inclui retorno após 15 dias, se necessário.",
+        "items": [
+          { "name": "Terço superior feminino (4 áreas)", "detail": "40 UI", "price": "R$ 780,00" },
+          { "name": "Terço superior masculino (4 áreas)", "detail": "50 UI", "price": "R$ 880,00" },
+          { "name": "Rosto completo (Full Face)", "detail": "60 UI", "price": "R$ 1.500,00" },
+          { "name": "Hiperidrose (suor excessivo)", "detail": "100 UI", "price": "R$ 1.800,00" },
+          { "name": "Aplicação de toxina botulínica por unidade", "price": "R$ 25,00" }
+        ]
+      },
+      {
+        "name": "Preenchimento facial e labial",
+        "items": [
+          { "name": "Preenchimento labial (1 ml)", "price": "R$ 680,00" },
+          { "name": "Preenchimento de mento (queixo)", "price": "R$ 650,00" },
+          { "name": "Contorno mandibular", "price": "A partir de R$ 700,00" },
+          { "name": "Preenchimento malar (maçã do rosto)", "price": "A partir de R$ 700,00" },
+          { "name": "Sulco nasogeniano (bigode chinês)", "price": "A partir de R$ 650,00" },
+          { "name": "Linhas de marionete", "price": "A partir de R$ 650,00" },
+          { "name": "Preenchimento de olheiras", "price": "A partir de R$ 680,00" },
+          { "name": "Rinomodelação (nariz)", "price": "R$ 1.800,00" }
+        ]
+      },
+      {
+        "name": "Combos promocionais",
+        "items": [
+          { "name": "Combo 1: preenchimento labial (2 ml)", "price": "R$ 900,00" },
+          { "name": "Combo 2: preenchimento labial + mento", "price": "R$ 1.200,00" },
+          { "name": "Combo 3: preenchimento malar + mento", "price": "R$ 1.250,00" },
+          { "name": "Combo 4: Full Face", "price": "A partir de R$ 1.800,00" }
+        ]
+      },
+      {
+        "name": "Bioestimuladores de colágeno",
+        "note": "Valores de R$ 900,00 a R$ 2.000,00.",
+        "items": [
+          { "name": "Sculptra" },
+          { "name": "Radiesse" },
+          { "name": "Outras marcas", "price": "Consultar" }
+        ]
+      },
+      {
+        "name": "Peelings químicos",
+        "items": [
+          { "name": "Peeling orgânico", "price": "A partir de R$ 180,00" },
+          { "name": "Peeling de ATA", "price": "A partir de R$ 250,00" },
+          { "name": "Yellow Peel", "price": "A partir de R$ 400,00" },
+          { "name": "Peeling 3D", "price": "R$ 600,00" },
+          { "name": "Peeling Pele Iluminada", "price": "R$ 200,00 por sessão" }
+        ]
+      },
+      {
+        "name": "Mesoterapia e microagulhamento",
+        "note": "Os valores variam conforme a avaliação individual, o protocolo e os produtos utilizados.",
+        "items": [
+          { "name": "PDRN", "price": "De R$ 350,00 a R$ 900,00" },
+          { "name": "NCTF 150", "price": "De R$ 180,00 a R$ 600,00" },
+          { "name": "Exossomos", "price": "De R$ 450,00 a R$ 900,00" },
+          { "name": "GHK-Cu (peptídeo de cobre)", "price": "De R$ 350,00 a R$ 800,00" },
+          { "name": "Skinbooster", "price": "De R$ 190,00 a R$ 500,00" },
+          { "name": "Tratamento de melasma", "price": "De R$ 800,00 a R$ 1.600,00" }
+        ]
+      },
+      {
+        "name": "Jato de plasma",
+        "items": [
+          { "name": "Testa", "price": "R$ 140,00" },
+          { "name": "Pálpebras superiores e inferiores", "price": "R$ 250,00" },
+          { "name": "Região perioral (ao redor da boca)", "price": "R$ 200,00" },
+          { "name": "Bochechas", "price": "R$ 250,00" },
+          { "name": "Queixo", "price": "R$ 180,00" },
+          { "name": "Linhas de expressão localizadas", "price": "R$ 240,00" },
+          { "name": "Pescoço e papada (flacidez)", "price": "R$ 390,00" },
+          { "name": "Cicatrizes em áreas localizadas", "price": "R$ 240,00" },
+          { "name": "Full Face (até 4 regiões)", "price": "R$ 500,00" },
+          { "name": "Remoção de pintas e sinais", "price": "A partir de R$ 120,00" },
+          { "name": "Tratamento de manchas nas mãos", "price": "R$ 250,00" }
+        ]
+      },
+      {
+        "name": "Tratamentos especializados",
+        "items": [
+          { "name": "Dermopuntura — estrias brancas", "price": "A partir de R$ 250,00 por sessão" },
+          { "name": "Secagem de vasinhos com glicose", "price": "De R$ 100,00 a R$ 300,00 por sessão" },
+          { "name": "Lobuloplastia (orelhas) — reconstrutiva não cirúrgica", "detail": "Técnicas conforme avaliação e indicação", "price": "" },
+          { "name": "Jato de plasma", "detail": "Técnica que pode ser indicada para lobuloplastia", "price": "De R$ 250,00 a R$ 500,00" },
+          { "name": "Preenchimento do lóbulo com ácido hialurônico", "price": "R$ 680,00" }
+        ]
+      },
+      {
+        "name": "Tratamentos com subcisão",
+        "items": [
+          { "name": "Subcisão para celulite", "price": "A partir de R$ 600,00" },
+          { "name": "Subcisão para cicatrizes de acne", "price": "A partir de R$ 500,00" }
+        ]
+      },
+      {
+        "name": "Protocolos de emagrecimento",
+        "note": "GEN TRZ — valores informados por dose. Parceria com nutricionista para suporte nutricional.",
+        "items": [
+          { "name": "2,5 mg", "price": "R$ 200,00" },
+          { "name": "5 mg", "price": "R$ 200,00" },
+          { "name": "7,5 mg", "price": "R$ 200,00" },
+          { "name": "12,5 mg", "price": "R$ 250,00" },
+          { "name": "15 mg", "price": "R$ 300,00" }
+        ]
+      },
+      {
+        "name": "Tratamento para gordura localizada",
+        "items": [
+          { "name": "Tratamento por sessão", "price": "De R$ 80,00 a R$ 1.500,00, conforme avaliação" },
+          { "name": "Aplicação de enzimas individuais", "price": "Consultar valores" }
+        ]
+      }
+    ]
+  },
+  "basica": {
+    "title": "Estética básica i9 face",
+    "categories": [
+      {
+        "name": "Sobrancelhas",
+        "items": [
+          { "name": "Reconstrução de sobrancelhas com microagulhamento, incluindo avaliação por tricoscopia", "price": "R$ 200,00 por sessão" },
+          { "name": "Design feminino", "price": "R$ 60,00" },
+          { "name": "Design feminino com pinça", "price": "R$ 70,00" },
+          { "name": "Design masculino", "price": "R$ 70,00" },
+          { "name": "Design masculino com pinça", "price": "R$ 75,00" },
+          { "name": "Design infantil", "price": "R$ 50,00" },
+          { "name": "Aplicação de henna ou tintura", "price": "R$ 75,00" },
+          { "name": "Brow Lamination", "price": "R$ 150,00" },
+          { "name": "Microblading (Shadow ou Microhenna)", "detail": "Retorno incluso", "price": "R$ 500,00" }
+        ]
+      },
+      {
+        "name": "Combos de sobrancelhas",
+        "items": [
+          { "name": "Design + buço", "price": "R$ 70,00" },
+          { "name": "Design com pinça + buço", "price": "R$ 80,00" },
+          { "name": "Design + buço + queixo", "price": "R$ 80,00" },
+          { "name": "Design + henna", "price": "R$ 85,00" },
+          { "name": "Design + tintura", "price": "R$ 85,00" }
+        ]
+      },
+      {
+        "name": "Depilação facial com linha",
+        "note": "Valor por área, exceto para epilação facial completa.",
+        "items": [
+          { "name": "Buço", "price": "R$ 30,00" },
+          { "name": "Queixo", "price": "R$ 30,00" },
+          { "name": "Testa", "price": "R$ 30,00" },
+          { "name": "Nariz", "price": "R$ 30,00" },
+          { "name": "Pescoço", "price": "R$ 30,00" },
+          { "name": "Orelhas", "price": "R$ 30,00" },
+          { "name": "Epilação facial completa", "price": "R$ 150,00" }
+        ]
+      },
+      {
+        "name": "Cílios",
+        "items": [
+          { "name": "Extensão de cílios (fio a fio, híbrido ou brasileiro)", "price": "R$ 180,00" },
+          { "name": "Cílios Express (sem manutenção)", "price": "R$ 90,00" },
+          { "name": "Manutenção de extensão de cílios (até 20 dias)", "price": "R$ 90,00" },
+          { "name": "Remoção de extensão", "price": "R$ 80,00" },
+          { "name": "Aplicação de tintura para cílios", "price": "R$ 75,00" },
+          { "name": "Lash Lifting ou permanente de cílios", "price": "R$ 160,00" }
+        ]
+      },
+      {
+        "name": "Lábios",
+        "items": [
+          { "name": "Micropigmentação labial (Microlab)", "detail": "Retorno incluso", "price": "R$ 590,00" },
+          { "name": "Hidralips", "price": "R$ 150,00" }
+        ]
+      },
+      {
+        "name": "Limpeza de pele e tratamentos faciais",
+        "note": "Os pacotes podem ser personalizados conforme a necessidade de cada cliente.",
+        "items": [
+          { "name": "Limpeza de Pele Detox", "price": "R$ 160,00" },
+          { "name": "Limpeza de Pele Clareadora", "price": "R$ 200,00" },
+          { "name": "Limpeza de Pele + Peeling de Diamante", "price": "R$ 130,00" },
+          { "name": "Peeling de Diamante", "price": "R$ 80,00" },
+          { "name": "Dermaplaning", "price": "R$ 130,00" },
+          { "name": "Limpeza de Pele + Microagulhamento", "price": "R$ 300,00" },
+          { "name": "Limpeza de Pele + Dermaplaning", "price": "R$ 150,00" },
+          { "name": "Tratamento de acne (protocolo específico com 3 sessões)", "price": "R$ 400,00" }
+        ]
+      },
+      {
+        "name": "Depilação corporal feminina",
+        "items": [
+          { "name": "Abdômen", "price": "R$ 45,00" },
+          { "name": "Ânus", "price": "R$ 40,00" },
+          { "name": "Axilas", "price": "R$ 45,00" },
+          { "name": "Braço completo", "price": "R$ 80,00" },
+          { "name": "Buço", "price": "R$ 30,00" },
+          { "name": "Costas", "price": "R$ 60,00" },
+          { "name": "Coxas", "price": "R$ 70,00" },
+          { "name": "Dedos dos pés (falanges)", "price": "R$ 20,00" },
+          { "name": "Faixa do abdômen", "price": "R$ 45,00" },
+          { "name": "Glúteos", "price": "R$ 50,00" },
+          { "name": "Mãos (dorso e falanges)", "price": "R$ 35,00" },
+          { "name": "Meia perna", "price": "R$ 60,00" },
+          { "name": "Meio braço", "price": "R$ 45,00" },
+          { "name": "Nariz", "price": "R$ 30,00" },
+          { "name": "Orelhas", "price": "R$ 30,00" },
+          { "name": "Perna inteira", "price": "R$ 90,00" },
+          { "name": "Queixo", "price": "R$ 30,00" },
+          { "name": "Rosto inteiro", "price": "R$ 160,00" },
+          { "name": "Seios", "price": "R$ 50,00" },
+          { "name": "Virilha cavada (volta do biquíni)", "price": "R$ 55,00" },
+          { "name": "Virilha completa + ânus", "price": "R$ 75,00" }
+        ]
+      },
+      {
+        "name": "Pacote feminino",
+        "items": [
+          { "name": "Meia perna + axilas + virilha cavada + ânus", "price": "R$ 180,00" }
+        ]
+      },
+      {
+        "name": "Banho de Lua",
+        "items": [
+          { "name": "Banho de Lua corporal completo", "price": "R$ 150,00" }
+        ]
+      }
+    ]
+  }
+}
