@@ -18,7 +18,7 @@
 }
 
 * { box-sizing: border-box; }
-body { margin: 0; color: var(--text); background: var(--cream); font-size: 15px; line-height: 1.6; }
+body { margin: 0; color: var(--text); background: var(--cream); font-size: 12px; line-height: 1.6; }
 a { color: inherit; }
 button { font: inherit; }
 img { max-width: 100%; display: block; }
@@ -164,7 +164,7 @@ h1 em, h2 em { color: var(--gold); font-weight: 500; }
 .site-footer { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 25px; padding: 26px max(24px, calc((100vw - var(--content)) / 2)) 23px; color: rgba(255,253,248,.72); background: #090908; border-top: 1px solid rgba(199,162,76,.32); }
 .footer-brand { width: 100px; }
 .footer-brand img { width: 100px; height: 62px; object-fit: contain; }
-.footer-tagline { margin: 0; font-family: var(--serif); color: var(--paper); line-height: 1.2; font-size: 19px; }
+.footer-tagline { font-family: var(--serif); color: var(--paper); margin-left: -200px; margin-top: 44px; line-height: 1.2; font-size: 19px; }
 .footer-tagline em { color: var(--gold-light); }
 .footer-social { display: grid; justify-items: end; gap: 4px; }
 .footer-social a { color: var(--gold-light); text-decoration: none; font-size: 11px; }
@@ -826,4 +826,135 @@ main, main > section, .site-header, .site-footer { width: 100%; max-width: 100%;
 
 .footer-credit a:hover {
   color: #f0d49a;
+}
+
+
+/* POP-UP PROMOCIONAL I9 FACE */
+.promo-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: rgba(0, 0, 0, 0.82);
+  backdrop-filter: blur(7px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.promo-overlay.is-visible {
+  display: flex;
+}
+
+.promo-modal {
+  position: relative;
+  width: 100%;
+  max-width: 850px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: #100e0b;
+  border: 1px solid rgba(201, 164, 92, 0.5);
+  padding: 32px;
+  text-align: center;
+  animation: promoAppear .4s ease;
+}
+
+.promo-close {
+  position: absolute;
+  top: 8px;
+  right: 13px;
+  background: none;
+  border: 0;
+  color: #d9bd82;
+  font-size: 34px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.promo-header span {
+  color: #c9a45c;
+  font-size: 10px;
+  letter-spacing: 3px;
+}
+
+.promo-header h2 {
+  color: #f5eee2;
+  font-family: 'Cinzel', serif;
+  font-size: clamp(20px, 4vw, 30px);
+  margin: 12px 0 24px;
+}
+
+.promo-header h2 em {
+  color: #c9a45c;
+}
+
+/* IMAGENS DO POP-UP */
+.promo-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.promo-images a {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #000;
+  border: 1px solid rgba(201, 164, 92, .4);
+}
+
+.promo-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  transition: transform .35s ease;
+}
+
+.promo-images a:hover img {
+  transform: scale(1.035);
+}
+
+.promo-footer {
+  color: #c9bda9;
+  font-size: 12px;
+  margin: 20px 0 0;
+}
+
+/* ANIMAÇÃO */
+@keyframes promoAppear {
+  from {
+    opacity: 0;
+    transform: translateY(15px) scale(.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* RESPONSIVIDADE PARA CELULAR */
+@media (max-width: 600px) {
+  .promo-modal {
+    padding: 28px 15px 20px;
+  }
+
+  .promo-images {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .promo-images a {
+    height: 300px;
+  }
+
+  .promo-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 }

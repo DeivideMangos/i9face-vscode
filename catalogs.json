@@ -16,8 +16,8 @@
       {
         "name": "Preenchimento facial e labial",
         "items": [
-          { "name": "Preenchimento labial (1 ml)", "price": "R$ 680,00" },
-          { "name": "Preenchimento de mento (queixo)", "price": "R$ 650,00" },
+          { "name": "Preenchimento labial (1 ml)", "price": "R$ 700,00" },
+          { "name": "Preenchimento de mento (queixo)", "price": "R$ 700,00" },
           { "name": "Contorno mandibular", "price": "A partir de R$ 700,00" },
           { "name": "Preenchimento malar (maçã do rosto)", "price": "A partir de R$ 700,00" },
           { "name": "Sulco nasogeniano (bigode chinês)", "price": "A partir de R$ 650,00" },
@@ -29,7 +29,7 @@
       {
         "name": "Combos promocionais",
         "items": [
-          { "name": "Combo 1: preenchimento labial (2 ml)", "price": "R$ 900,00" },
+          { "name": "Combo 1: preenchimento labial (2 ml)", "price": "R$ 700,00" },
           { "name": "Combo 2: preenchimento labial + mento", "price": "R$ 1.200,00" },
           { "name": "Combo 3: preenchimento malar + mento", "price": "R$ 1.250,00" },
           { "name": "Combo 4: Full Face", "price": "A partir de R$ 1.800,00" }
@@ -60,9 +60,9 @@
         "items": [
           { "name": "PDRN", "price": "De R$ 350,00 a R$ 900,00" },
           { "name": "NCTF 150", "price": "De R$ 180,00 a R$ 600,00" },
-          { "name": "Exossomos", "price": "De R$ 450,00 a R$ 900,00" },
+          { "name": "Exossomos", "price": "De R$ 450,00 a R$ 700,00" },
           { "name": "GHK-Cu (peptídeo de cobre)", "price": "De R$ 350,00 a R$ 800,00" },
-          { "name": "Skinbooster", "price": "De R$ 190,00 a R$ 500,00" },
+          { "name": "Skinbooster", "price": "De R$ 190,00 a R$ 800,00" },
           { "name": "Tratamento de melasma", "price": "De R$ 800,00 a R$ 1.600,00" }
         ]
       },
@@ -103,7 +103,7 @@
         "name": "Protocolos de emagrecimento",
         "note": "GEN TRZ — valores informados por dose. Parceria com nutricionista para suporte nutricional.",
         "items": [
-          { "name": "2,5 mg", "price": "R$ 200,00" },
+          { "name": "2,5 mg", "price": "R$ 180,00" },
           { "name": "5 mg", "price": "R$ 200,00" },
           { "name": "7,5 mg", "price": "R$ 200,00" },
           { "name": "12,5 mg", "price": "R$ 250,00" },
@@ -163,7 +163,7 @@
         "name": "Cílios",
         "items": [
           { "name": "Extensão de cílios (fio a fio, híbrido ou brasileiro)", "price": "R$ 180,00" },
-          { "name": "Cílios Express (sem manutenção)", "price": "R$ 90,00" },
+          { "name": "Cílios de tela (não tem manutenção)", "price": "R$ 150,00" },
           { "name": "Manutenção de extensão de cílios (até 20 dias)", "price": "R$ 90,00" },
           { "name": "Remoção de extensão", "price": "R$ 80,00" },
           { "name": "Aplicação de tintura para cílios", "price": "R$ 75,00" },

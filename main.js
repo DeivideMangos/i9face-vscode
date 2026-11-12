@@ -70,3 +70,36 @@ window.addEventListener("resize", () => {
     menuToggle?.setAttribute("aria-expanded", "false");
   }
 });
+
+
+// POP-UP PROMOCIONAL I9 FACE
+const promoPopup = document.getElementById('promoPopup');
+const closePromo = document.getElementById('closePromo');
+
+if (promoPopup && closePromo) {
+
+  // Exibe o pop-up sempre que a página carregar
+  setTimeout(() => {
+    promoPopup.classList.add('is-visible');
+    promoPopup.setAttribute('aria-hidden', 'false');
+  }, 1200);
+
+  function closePromoPopup() {
+    promoPopup.classList.remove('is-visible');
+    promoPopup.setAttribute('aria-hidden', 'true');
+  }
+
+  closePromo.addEventListener('click', closePromoPopup);
+
+  promoPopup.addEventListener('click', (event) => {
+    if (event.target === promoPopup) {
+      closePromoPopup();
+    }
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      closePromoPopup();
+    }
+  });
+}
